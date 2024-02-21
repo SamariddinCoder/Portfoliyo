@@ -1,148 +1,176 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    text-decoration:none;
-}
-/* .main_container{
-    max-width: 1920px;
-    margin: auto;
-} */
-
-/* header */
-header .header_right ul{
-    display: flex;
-    gap: 50px;
-}
-header .header_menu{
-    display: flex;
-    justify-content: space-between;
-    /* padding:60px 80px 95px 95px; */
-    font-family: "Jost", sans-serif;
-    letter-spacing: 2px;
-    font-size: inherit !important;
-    max-width: 1320px;
-}
-/* header */
-/* home */
-#home .onhome{
-    /* display: flex;
-    justify-content: center; */
-    margin-left: 200px;
-}
-#home .icon{
-    margin-left: 600px;
-    margin-top: -200px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 
-#home .inhome{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 100px;
-    background-size: contain;
-    background-position: 480px 0px;
-    background-repeat: no-repeat;
-    background: rgb(31, 34, 53);
-    width: 85%;
-    height: 450px;
-    padding-left: 10px;
+.main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#home .home_text{
-    width: 550px;
-    margin-left: -100px;
+
+.sayt {
+  width: 1320px;
 }
-#home .inhome h1{
-    font-size: 45px;
-    font-family: "Jost", sans-serif;
-    color: #ffffff;
-    font-weight: 600;
+
+.home .heder {
+  height: 80px;
+  background: rgb(36, 38, 59);
 }
-#home p{
-    line-height: 26px;
-    margin-top: 40px;
-    color: #fff;
-    font-family: "Jost", sans-serif;
+.home .heder ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 350px;
+  gap: 30px;
+  padding: 15px;
 }
-#home .link{
-    margin-top: -50px;
-    
-    
+.home .heder button {
+  background: rgb(254, 70, 28);
+  width: 152px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#home .link_br{
-    margin-top: -23px;
-    margin-left: 150px;
-    width: 300px;
+
+.work {
+  background: rgb(31, 34, 53);
+  margin-top: -20px;
+  height: 400px;
 }
-#home a{
-    padding: 20px 35px;
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(254, 70, 28);;
-    font-family: "Jost", sans-serif;
-    transition: .5s ease;
-    font-weight: bolder;
-    width: 400px;
+.work .work_style {
+  margin-left: 250px;
+  position: relative;
+  top: 100px;
 }
-#home .home_img{
-    margin-right: -25px;
-    margin-bottom: -4px;
+.work .work_style h3 {
+  color: rgb(255, 255, 255);
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 15%;
+  text-align: left;
+  text-transform: capitalize;
 }
-#home .home_text{
-    margin-right: 0px;
-    margin-top: 115px;
+.work .work_style h1 {
+  color: rgb(255, 255, 255);
 }
-#home .home_text h3{
-    color: rgb(255, 255, 255);
-    font-family: Public Sans;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 20px;
-    letter-spacing: 15%;
-    text-align: left;
-    text-transform: capitalize;
+.work .work_style p {
+  color: rgb(255, 255, 255);
 }
-#home .home_text p{
-    color: rgb(255, 255, 255);
-    font-family: Public Sans;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-top: -5px;
+.work .work_style .button {
+  display: flex;
+  gap: 30px;
 }
-#home a:hover{
+.work .images {
+  position: relative;
+  left: 850px;
+  top: -80px;
 }
-/* home */
-/* work */ 
-.text ul {
-    display: flex;
-    gap: 30px;
-    text-align: center;
-    margin-left: 670px;
-    margin-top: 14px;
+
+.about {
+  background-color: rgb(36, 38, 59);
+  height: 450px;
 }
-.text h1{
-    color: rgb(199, 35, 35);
-    font-family: Outfit;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    margin-left: -150px;
-    margin-top: 70px;
-    text-align: center;
+.about .about_me {
+  max-width: 536px;
+  margin-left: 650px;
+  position: relative;
+  top: 80px;
 }
-#work {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 100px;
-    background-size: contain;
-    background-position: 480px 0px;
-    background-repeat: no-repeat;
-    background: rgb(26, 33, 82);
-    height: 450px;
-    margin-left: 140px;
+.about .about_me h1 {
+  position: relative;
+  top: -10px;
+  color: rgb(255, 255, 255);
 }
-/* work */
+.about .about_me p {
+  max-width: 354px;
+  color: rgb(255, 255, 255);
+}
+.about .about_me ul {
+  position: relative;
+  top: 20px;
+  color: rgb(255, 255, 255);
+}
+.about .about_me .ul1 {
+  position: relative;
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+.about .about_me button {
+  position: relative;
+  top: 40px;
+  position: absolute;
+  width: 160px;
+  height: 56px;
+  top: 270px;
+  border-radius: 4px;
+  background: rgb(254, 70, 28);
+}
+.about .images {
+  position: relative;
+  top: -190px;
+  left: 100px;
+}
+.about .images img {
+  width: 450px;
+}
+
+.portfolio {
+  background: rgb(31, 34, 53);
+  height: 1070px;
+}
+.portfolio .portfolio_style h1 {
+  color: rgb(255, 255, 255);
+  font-family: Outfit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.portfolio .portfolio_style ul {
+  display: flex;
+  gap: 40px;
+  position: relative;
+  left: 430px;
+  top: 40px;
+}
+.portfolio .book .book1 {
+  width: 250px;
+  height: 260px;
+  background-color: rgb(128, 80, 22);
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.portfolio .book .book2 {
+  width: 250px;
+  height: 544px;
+  background-color: rgb(128, 80, 22);
+  position: relative;
+  top: 120px;
+  left: 100px;
+}
+.portfolio .book .book3 {
+  width: 250px;
+  height: 544px;
+  background-color: rgb(128, 80, 22);
+  position: relative;
+  top: -705px;
+  left: 370px;
+}
+.portfolio .book .book4 {
+  width: 250px;
+  height: 260px;
+  background-color: rgb(105, 71, 28);
+  position: relative;
+  top: 120px;
+  left: 370px;
+}/*# sourceMappingURL=style.css.map */

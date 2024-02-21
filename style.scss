@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.main_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sayt{
+    width: 1320px;
+}
+
+.home{
+    
+    .heder{
+        height: 80px;
+        background: rgb(36, 38, 59);
+
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 350px;
+            gap: 30px;
+            padding: 15px;
+            
+            
+            
+        }
+        button{
+            background: rgb(254, 70, 28);
+            width: 152px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.work{
+    background: rgb(31, 34, 53);
+    margin-top: -20px;
+    height: 400px;
+
+    .work_style{
+        margin-left: 250px;
+        position: relative;
+        top: 100px;
+
+        h3{
+            color: rgb(255, 255, 255);
+            font-family: Public Sans;
+            font-size: 16px;
+            font-weight: 900;
+            line-height: 20px;
+            letter-spacing: 15%;
+            text-align: left;
+            text-transform: capitalize;
+        }
+
+        h1{
+            color: rgb(255, 255, 255);
+        }
+
+        p{
+            color: rgb(255, 255, 255);
+        }
+
+        .button{
+            display: flex;
+            gap: 30px;
+        }
+    }
+
+    .images{
+        position: relative;
+        left: 850px;
+        top: -80px;
+    }
+}
+
+.about{
+    background-color: rgb(36, 38, 59);
+    height: 450px;
+    .about_me{
+        max-width: 536px;
+        margin-left: 650px;
+        position: relative;
+        top: 80px;
+
+        h1{
+            position: relative;
+            top: -10px;
+            color: rgb(255, 255, 255);
+        }
+
+        p{
+            max-width: 354px;
+            color: rgb(255, 255, 255);
+        }
+
+        ul{
+            position: relative;
+            top: 20px;
+            color: rgb(255, 255, 255);
+        }
+        .ul1{
+            position: relative;
+            color: rgb(255, 255, 255);
+            display: flex;
+        }
+        
+        button{
+            position: relative;
+            top: 40px;
+            position: absolute;
+            width: 160px;
+            height: 56px;
+            top: 270px;
+            border-radius: 4px;
+            background: rgb(254, 70, 28);
+        }
+    }
+
+    .images{
+        position: relative;
+        top: -190px;
+        left: 100px;
+        
+        img{
+            width: 450px;
+
+        }
+    }
+}
+
+.portfolio{
+    background: rgb(31, 34, 53);
+    height: 1070px;
+
+
+    .portfolio_style{
+        h1{
+            color: rgb(255, 255, 255);
+            font-family: Outfit;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0%;
+            text-align: center;
+            position: relative;
+            top: 30px;
+        }
+        
+        ul{
+            display: flex;
+            gap: 40px;
+            position: relative;
+            left: 430px;
+            top: 40px;
+        }
+    }
+
+    .book{
+        .book1{
+            width: 250px;
+            height: 260px;
+            background-color: rgb(128, 80, 22);
+            position: relative;
+            top: 100px;
+            left: 100px;
+        }
+
+        .book2{
+            width: 250px;
+            height: 544px;
+            background-color: rgb(128, 80, 22);
+            position: relative;
+            top: 120px;
+            left: 100px;
+        }
+
+        .book3{
+            width: 250px;
+            height: 544px;
+            background-color: rgb(128, 80, 22);
+            position: relative;
+            top: -705px;
+            left: 370px;
+        }
+
+        .book4{
+            width: 250px;
+            height: 260px;
+            background-color: rgb(105, 71, 28);
+            position: relative;
+            top: 120px;
+            left: 370px;
+        }
+    }
+}
